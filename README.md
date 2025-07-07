@@ -8,7 +8,7 @@
 Esta es aplicación CRUD básica para la gestión de libros usando Node.js, Express, MongoDB y Mongoose. 
 Aquí te muestro cómo se ve la aplicación:
 ![Apartado para introducir un nuevo libro](public/img/crud-image-1.png)
-![Apartado para mostrar, actualizar y borrar uno o varios libros](public/img/crud-image-2.png)
+![Apartado para mostrar, actualizar y borrar uno o varios libros](public/img/crud-image-2.jpg)
 
 ## 🚀 Características
 
