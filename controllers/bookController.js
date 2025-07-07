@@ -1,6 +1,6 @@
 const Book = require('../models/Book');
 
-// Mostrar todos los libros
+// Show all books
 exports.showBooks = async (req, res) => {
     try {
         const books = await Book.find();
@@ -10,7 +10,7 @@ exports.showBooks = async (req, res) => {
     }
 };
 
-// Crear un nuevo libro
+// Create book
 exports.createBook = async (req, res) => {
     try {
         const { title, author, year, genre, rating } = req.body;
@@ -25,7 +25,7 @@ exports.createBook = async (req, res) => {
     }
 };
 
-// Actualizar libro
+// Update book
 exports.updateBook = async (req, res) => {
     try {
         const { id } = req.params;
@@ -47,7 +47,7 @@ exports.updateBook = async (req, res) => {
     }
 };
 
-// Eliminar libro
+// Delete book
 exports.deleteBook = async (req, res) => {
     try {
         const { id } = req.params;
